@@ -1,0 +1,416 @@
+\section{電子天秤}
+各材料の計量には電子天秤(島津製作所製、AEX-120G)を用いた。以下に測定手順を示す。
+\\\newline
+測定の準備\\
+　天秤を使用しない時でも電源プラグは抜かずに、ON/OFFキーを押してスタンバイランプを点灯させ、暖機状態に保つ。また、計画停電などで電源を切った後再起動する際には、暖機を一時間半以上行う。再起動時は、電子天秤の表示が\SIrange[range-phrase = { or }]{0.0000}{0.000}{ \g}のどちらかになるため注意する必要がある。
+\\\newline
+測定モードの設定
+\begin{enumerate}
+    \item ON/OFF キーを押す。スタンバイランプが消え、全オブジェクトが点灯する。点灯しないオブジェクトがないかどうか確かめる。
+    \item TARE キーを押し、感度校正を行う。校正結果が表示され、''CAL End''が表示されると校正が終了する。
+    \item 表示がゼロになり、測定モードになる。
+\end{enumerate}
+\leavevmode\\
+測定
+\begin{enumerate}
+    \item 薬包紙を使用するときは皿に薬包紙を載せ、安定マーク（→）が点灯後 TARE キーを押し、零点補正を行う。
+    この時、電子天秤の全ての窓は閉めておく。
+    \item 表示がゼロであることを確認する。
+    \item 窓を開け、材料を薬包紙の上に載せ、窓を再度閉める。
+    \item 安定マークが点灯後、表示を読み取る。
+    \item 測定終了後、ON/OFF キーを押しスタンバイ状態にする。
+ \end{enumerate}   
+    
+\section{試料の作製}
+本研究では、基板上にspiroOMeTADまたは中間層を成膜した。以下にその詳細を示す。
+\subsection{基板の洗浄}
+ITO付きガラス基板は、表面の汚れによる電気特性や堆積する物質の結晶構造への影響を防止するため、使用前に洗浄工程を行い保管する。基板の洗浄には、超音波洗浄機（本多電子株式会社：W-113）を用いた。周波数は\SIlist{100}{\kilo\hertz}に設定した。以下にその手順を示す。
+
+\noindent\textbf{洗浄工程}
+\begin{enumerate}
+    \item 基板洗浄用の\SI{500}{\milli\liter}ビーカーに脱イオン水と基板を入れ、超音波洗浄を\SI{100}{\kilo\hertz}で10分間行う。この過程を6回繰り返す。
+    \item 脱イオン水を捨て、2-プロパノールを入れて超音波洗浄を\SI{100}{\kilo\hertz}で15分間行う。
+    \item 2-プロパノールを廃液入れに捨て、基板をソックスレー抽出器に移す。
+    \item ソックスレー抽出器に冷却水を流す。
+    \item 電源プラグを接続し、スライダックの目盛りを7に合わせ、2-プロパノールの還流を3サイクル行う。
+    \item 還流終了後、スライダックの電源を切り、基板はそのまま2-プロパノールに浸した状態で保管する。
+    \item ソックスレー抽出器が十分に冷えたことを確認し、冷却水を止める。
+\end{enumerate}
+
+\subsection{スピンコート法}
+スピンコート法によるspiro-OMeTADまたは中間層の成膜には、スピンコーター（ミカサ株式会社、1H-D7）を用いた。本研究で用いたスピンコートの実験系の概略図を図\ref{スピンコーターの概略図}に示す。真空ポンプを用いて排気することで、基板ホルダーを試料台に固定している。図\ref{基板ホルダーの写真}、図\ref{基板ホルダーの概略図}はそれぞれ本研究で使用する基板ホルダーの写真と概略図である。\\
+\begin{figure}[H]
+    \begin{minipage}{1.0\hsize}
+        \begin{center}
+            \includegraphics[scale=0.5]{image/Spin coater_image.png}
+        \end{center}
+    \end{minipage}
+    \caption{スピンコーターの概略図}
+    \label{スピンコーターの概略図}
+\end{figure}
+\begin{figure}[H]
+	\centering
+    \begin{minipage}{0.4\columnwidth}
+            \includegraphics[width=\columnwidth]{image/Holder_photo.png}
+    \caption{基板ホルダーの写真}
+    \label{基板ホルダーの写真}
+    \end{minipage}
+    \begin{minipage}{0.4\columnwidth}
+    		\centering
+            \includegraphics[width=\columnwidth]{image/Holder_image.png}
+	\caption{基板ホルダーの概略図}
+    \label{基板ホルダーの概略図}
+    \end{minipage}
+\end{figure}
+以下にその詳細を示す。
+\\\newline
+	溶液の作製
+	\begin{enumerate}
+		\item 溶質を必要量、電子天秤で量る。
+		\item 量り取った溶質を\SIlist{10}{\milli\liter}ビーカーに入れる。
+		\item 溶媒を必要量、シリンジで測り、溶質の入ったビーカーに注ぐ。
+		\item ビーカーを小刻みに揺らしながら、溶質が溶解するまで待機する。
+	\end{enumerate}
+	成膜手順
+	\begin{enumerate}
+		\item 真空ポンプとスピンコーターの電源を入れる。
+		\item スピンコーターに回転数、回転立ち上がり時間、回転数、回転停止時間を設定する。
+		\item 試料台の中心に基板ホルダーの中心が一致するようにセットする。
+		\item VACUUMボタンを押下し、基板ホルダーを試料台に固定する。
+		\item VACUUMランプが消滅し、基板ホルダーが固定されていることを確認する。
+		\item デジタルマルチメータ―（三和電気計器株式会社, CD731）を用いて、ITO層が上向きになるように基板ホルダーにITO付きガラス基板をセットする。
+		\item 作製した溶液を基板の中心に滴下する。
+		\item 蓋を閉じ、STARTボタンを押下する。
+		\item スピンコート終了後、蓋を開け、基板を取り出す。
+	\end{enumerate}
+	片付け
+	\begin{enumerate}
+		\item ビーカー及びシリンジを溶媒で共洗いする。
+		\item 共洗いに使用した溶媒を廃液入れに廃棄する。
+		\item 溶媒をふき取った後、所定の位置に戻す。
+	\end{enumerate}
+	
+\subsection{中間層の成膜}
+ITO/spiro-OMeTAD, ITO/中間層/spiro-OMeTADの作製には、スピンコート法を用いた。
+以下にそれぞれの薄膜の成膜条件を示す。
+　\subsubsection{カフェ酸の成膜}%subsection,subsubsectionの間調節のため改行ダメ
+表\ref{Cafeの成膜条件}にカフェ酸のスピンコート条件を示す。カフェ酸上にspiro-OMeTADを成膜する際にカフェ酸が流されないこと確認している。\cite{片山壮介_卒}
+
+  \begin{table}[H] 
+	  \centering 
+	  \caption{カフェ酸のスピンコート条件} 
+	  \label{Cafeの成膜条件} 
+	  \begin{tabular}{cc} 
+	  \hline 
+	  溶質&カフェ酸\\\hline 
+	  溶媒&エタノール\\\hline 
+	  溶液濃度&10, 20, \SI{30}{mM}\\\hline
+      方式&static dispense\\\hline 
+	  回転数&\SI{3000}{rpm}\\\hline 
+	  回転時間&\SI{30}{s}\\\hline
+  \end{tabular} 
+  \end{table}
+
+  \subsubsection{2PACzの成膜条件}
+  表\ref{Czの成膜条件}に2PACzのスピンコート条件を示す。2PACz上にspiro-OMeTADを成膜する際に2PACzが流されないことは確認している。\cite{片山壮介_修}
+
+  \begin{table}[H] 
+	  \centering 
+	  \caption{2PACzのスピンコート条件} 
+	  \label{Czの成膜条件} 
+	  \begin{tabular}{cc} 
+	  \hline 
+	  溶質&2PACz\\\hline 
+	  溶媒&エタノール\\\hline 
+	  溶液濃度&10, 20, 30, \SI{40}{mM}\\\hline 
+      方式&static dispense\\\hline
+	  回転数&\SI{3000}{rpm}\\\hline 
+	  回転時間&\SI{30}{s}\\\hline 
+  \end{tabular} 
+  \end{table}
+
+    \subsubsection{Br-2PACzの成膜条件}
+  表\ref{Brの成膜条件}に2PACzのスピンコート条件を示す。Br-2PACz上にspiro-OMeTADを成膜する際にBr-2PACzが流されないことは確認している。\cite{片山壮介_修}
+
+  \begin{table}[H] 
+	  \centering 
+	  \caption{Br-2PACzのスピンコート条件} 
+	  \label{Brの成膜条件} 
+	  \begin{tabular}{cc} 
+	  \hline 
+	  溶質&Br-2PACz\\\hline 
+	  溶媒&エタノール\\\hline 
+	  溶液濃度&\SI{30}{mM}\\\hline 
+      方式&static dispense\\\hline
+	  回転数&\SI{3000}{rpm}\\\hline 
+	  回転時間&\SI{30}{s}\\\hline 
+  \end{tabular} 
+  \end{table}
+
+   \subsubsection{Me-2PACzの成膜条件}
+  表\ref{Meの成膜条件}に2PACzのスピンコート条件を示す。Me-2PACz上にspiro-OMeTADを成膜する際にMe-2PACzが流されないことは確認している。\cite{片山壮介_修}
+
+  \begin{table}[H] 
+	  \centering 
+	  \caption{Me-2PACzのスピンコート条件} 
+	  \label{Meの成膜条件} 
+	  \begin{tabular}{cc} 
+	  \hline 
+	  溶質&Me-2PACz\\\hline 
+	  溶媒&エタノール\\\hline 
+	  溶液濃度&\SI{30}{mM}\\\hline 
+      方式&static dispense\\\hline
+	  回転数&\SI{3000}{rpm}\\\hline 
+	  回転時間&\SI{30}{s}\\\hline 
+  \end{tabular} 
+  \end{table}
+
+  \subsubsection{spiro-OMeTADの成膜}
+表\ref{spiro-OMeTADの成膜条件}にspiro-OMeTAD薄膜のスピンコート条件を示す。
+
+\begin{table}[H]
+		 \centering 
+		 \caption{spiro-OMeTAD薄膜のスピンコート条件}
+		  \label{spiro-OMeTADの成膜条件} \begin{tabular}{cc} 
+		  \hline 
+		  溶質&spiro-OMeTAD\\\hline 
+		  溶媒&クロロベンゼン\\\hline 
+		  溶液濃度&\SI{20.0}{g/L}\\\hline 
+          方式&static dispense, dynamic dispense\\\hline
+		  回転数&\SI{1000}{rpm}\\\hline 
+		  回転時間&\SI{40}{s}\\ \hline 
+	\end{tabular} 
+ \end{table} 
+spiro-OMeTADは中間層がBr-2PACz,Me-2PACzの場合、dynamic dispenseで成膜を行い、それ以外ではstatic dispenseにて成膜を行った。 	
+
+\section{電気化学測定}
+本研究ではポテンショスタットを用いた三電極系で電気化学測定をした。
+\subsection{ポテンショ・ガバノスタット}
+ポテンショスタットには北斗電工株式会社 HSV-110 を用いた。 表\ref{HSV110仕様} に HSV-110 の仕様を示す。ポテンショスタットは PC で操作、データの収集をするため LAN ケーブルで PC と接続し、専用のソフト(リモート制御・解析ソフトウエア) で通信をする。
+\begin{table}[H]
+    \centering
+    \caption{ポテンショスタットの仕様}
+    \label{HSV110仕様}
+    \begin{tabular}{cc}
+        \hline 
+        製造元&北斗電工株式会社\\\hline
+        型番&HSV-110\\\hline
+        最大出力電圧&$\pm$\SI{12}{V}\\\hline
+        最大出力電流&$\pm$\SI{100}{mA}\\\hline
+        応答時間&$<$\SI{5}{\micro s}\\\hline
+        　　　電圧計測精度　　　&　読み取り値の$\pm$0.2％　$\pm$\SI{1}{mV}　\\\hline
+    \end{tabular}    
+\end{table}
+\subsection{三電極系}
+作用極\\
+作用極には作製した試料を用いた。\\
+\quad  対極\\
+対極には白金電極\SIlist{5.7}{\cm}(ビー・エー・エス株式会社製、002222)を使用した。使用後、対極は脱イオン水で十分にすすぎ、常温で乾燥させる。\\
+\quad  参照極\\
+参照極には銀-塩化銀電極(ビー・エー・エス株式会社製、RE-1B)を使用した。以下この電極をAg/AgClと表記する。
+\subsection{測定手順}
+セル準備
+\begin{enumerate}
+    \item 電解質を電子天秤で計量し、必要量を電気化学セル(ビー・エー・エス株式会社製、SVC-2)に入れる。
+    \item 溶媒を必要量、メスシリンダーで測り、電解質を入れた電気化学セルに入れる。
+    \item 電気化学セルにパラフィルムで蓋をして、電解質の濃度が均等になるように振り混ぜる。
+    \item パラフィルムを取り外す。
+    \item SVC-2 用テフロンキャップの穴から作用極に取り付ける導線を通し、みのむしクリップを作用極に接続する。
+    \item 作用極を電解質溶液に浸漬させ、セルキャップを電気化学セルに取り付ける。
+    \item 参照極の底の気泡を、指で弾いて取り除いた後、参照極を電解質溶液に浸漬させる。
+    \item 対極を電解質溶液に浸漬させる。
+    \item それぞれの電極に HSV-110 のセルコードを接続する。
+\end{enumerate}
+　装置準備
+\begin{enumerate}
+    \item HSV-110 がコンセントに接続されている事、HSV-110 と PC が LAN ケーブルで接続されている事を確認し、HSV-110 の電源を入れる。
+    \item HSV-110 が起動した事を確認し、操作部にある STORE キーと LOCK キーとを操作し、表示ランプ (緑色) を点灯させ、PC による操作準備を完了させる。
+    \item PC 上で、HSV-110REMOTE を起動する。
+    \item 起動画面上のMEASURE をクリックし、リモート制御画面を起動させる。
+\end{enumerate}
+　測定
+\begin{enumerate}
+    \item リモート制御画面上で測定方法、測定パラメータを設定する。
+    \item START/STOP ボタンをクリックし、測定を開始する。
+    \item 測定終了後、測定データ保存ダイアログが開くため任意のディレクトリに保存を行う。
+\end{enumerate}
+　片付け
+\begin{enumerate}
+    \item 作用極、対極、参照極に接続されたセルコードを外す。
+    \item 参照極は脱イオン水で濯いだ後、\SIlist{3}{\mole/\liter} \ce{NaCl} aq. に液絡部を浸して保管する。
+    \item 対極は脱イオン水で濯いだ後、水滴を拭き取り、所定の場所に保管する。
+    \item 作用極を電気化学セルから取り出し、使用した電解質溶液は廃液入れに捨てる。
+    \item 電気化学セルを使用した溶媒で数回濯いだ後、自然乾燥させる。
+    \item END ボタンをクリックし、リモート制御画面を閉じる。
+    \item 起動画面の終了ボタンをクリックする。
+    \item 測定停止状態である事を確認して、装置の電源スイッチをオフにする。
+\end{enumerate}
+\section{吸光度・透過率測定}
+吸光度・透過率測定には紫外可視分光光度計（島津製作所、UV-1800） を用いた。UV-1800 の分光光度計の仕様を表\ref{UV1800仕様}、光学系を図\ref{UV1800装置図}に示す。光源 (重水素ランプ D2 または ハロゲンランプ W1) から出た光が、ミラー L.M. で反射し、分光器 (S1、M1、GR、M2、S2) に入る。分光器から出た光は、迷光カットフィルタ F を通過して、ミラー M3 に入射し、ビームスプリッタ B.S. により試料側光束と対照側光束に分けられ、各試料 (測定試料と対照試料) を通り検出器 (フォトダイオード) に入射することで光学特性は測定される\cite{UV-1800}。\\
+\begin{table}[H]
+    \centering
+    \caption{UV-1800の仕様\cite{UV-1800}}
+    \label{UV1800仕様}
+    \begin{tabular}{cc}
+        \hline 
+        測定波長            &   \num{190}～\SI{1100}{\nm} \\ \hline
+        スペクトルバンド幅   &  \num{1}\SI{+-0.2}{\nm} \\ \hline
+        波長正確さ          &   \SI{+-0.1}{\nm}(\SI{656.1}{\nm})，\SI{+-0.3}{nm}(全域)\\\hline
+        波長繰り返し精度    &   \SI{+-0.1}{\nm}\\\hline
+        波長送り速度        &   \SI{3000}{\nm/min}～\SI{2}{\nm/min}\\\hline
+        測定方法            &   ダブルビーム測光方式\\\hline
+        測定レンジ          &   吸光度:\num{-4}～\num{4} Abs，透過率:0～400 \\\hline
+        測定正確さ&\num{+-0.02} Abs(\num{0.5} Abs) \\
+         &\num{+-0.004} Abs(\num{1} Abs) \\
+         &\num{+-0.006} Abs(\num{2} Abs) \\\hline
+        測定レンジ&\num{+-0.001} Abs以下(\num{0.5} Abs) \\
+         &\num{+-0.001} Abs以下(\num{1} Abs) \\
+         &\num{+-0.003} Abs以下(\num{2} Abs) \\\hline
+        ノイズ&\num{0.00005} Abs以下(\SI{700}{\nm})\\\hline
+        ベースライン平坦度&\num{+-0.0006} Abs(\num{190}～\SI{1100}{\nm})光源点灯1時間後\\\hline
+        ベースライン安定性&\num{0.0003} Abs/h(\SI{700}{\nm})光源点灯1時間後\\\hline
+    \end{tabular}
+    
+\end{table}
+\begin{figure}[H]
+    \begin{minipage}{1.0\hsize}
+        \begin{center}
+            \includegraphics[scale=0.45]{image/UV1800.png}
+        \end{center}
+    \end{minipage}
+    \caption{分光光度計の光学系\cite{UV-1800}}
+    \label{UV1800装置図}
+\end{figure}
+
+
+\section{色変化の可逆性}
+本節ではspiro-OMeTADの色変化の可逆性の測定方法について示す。
+
+\subsection{電位掃引の範囲}
+色変化の可逆性を検討するために、本研究では三電極系でCVを行った。この方法での最適な電位掃引の範囲を決めるために、ITO/spiro-OMeTADに対して表\ref{LSV条件}の条件下でLSVによる測定を行った。結果を図\ref{ITO/spiro-OMeTADのLSV}に示す。
+  \begin{table}[H] 
+	  \centering 
+	  \caption{LSV条件} 
+	  \label{LSV条件} 
+	  \begin{tabular}{cc} 
+	  \hline 
+	  作用極&ITO/spiro-OMeTAD\\\hline 
+	  参照極&Ag/AgCl\\\hline 
+	  対極&白金\\\hline 
+	  溶液&\ce{NaClO4 aq.} \SI{1}{mol/kg}  \\\hline 
+	  掃引範囲&0～\SI{1}{V}\\\hline
+	  掃引速度&\SI{1.0}{mV/s}\\  
+	  \hline 
+  \end{tabular} 
+  \end{table}
+
+%\begin{figure}[H]
+	%\centering
+	%\includegraphics[width=7cm]{image/spiro-OMeTAD_LSV}
+	%\caption{ITO/spiro-OMeTADのLSV}
+	%\label{ITO/spiro-OMeTADのLSV}
+%\end{figure}
+
+
+黒色の実線が実験値、赤色の破線がフィッティングの結果である。フィッティングには3つのガウス関数を足し合わせた。紫色の領域は1価の酸化電位、水色の領域は2価の酸化電位、黄色の領域は4価の酸化電位を示している。この結果から、$0～\SI{1}{V}$の範囲で電位の掃引を行えば四価まで酸化する事がわかったので、本研究では掃引する電位の範囲を$0～\SI{1}{V}$とした。また、測定には図\ref{掃引した三角波}のような三角波を用いた。
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=7cm]{image/triangular_wave_0-1.png}
+	\caption{本実験で使用する三角波}
+	\label{掃引した三角波}
+\end{figure}
+
+\subsection{溶液濃度}
+サイクリックボルタンメトリーをする際に、電解液の濃度が低いと酸化に関係のない電流が多く流れてしまいその結果、還元電流が小さくなってしまうと言う現象が確認されている。これは、高濃度電荷液を用いる事によって解決できるということが先行研究で分かっている。\cite{山本雄樹}図\ref{高濃度電解液}に電解液の濃度を変えていったときのサイクリックボルタモグラムを示す。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{image/High Electrolyte.png}
+	\caption{溶液濃度別のサイクリックボルタモグラム\cite{山本雄樹}}
+	\label{高濃度電解液}
+\end{figure}
+
+図\ref{高濃度電解液}より、電解液の溶液濃度が濃くなるほど$\SI{1.0}{V}$\,vs.Ag/AgCl以降に流れる電流密度が小さくなっているのがわかる。これは、酸化に関係のない電流が流れにくくなったことを示している。このことから、本研究では電解液の溶液濃度を$\SI{10}{mol/kg}$にして測定を行った。
+
+\subsection{測定波長}
+可視光領域($380～\SI{780}{nm}$)で色変化の可逆性を評価したかったので、その範囲より少し広い$300～\SI{900}{nm}$の波長で測定を行った。
+
+\subsection{評価方法}
+理解の補助のために、図\ref{透過率測定例}に実際の透過率測定の結果、図\ref{可視光透過率測定例}に可視光領域での透過率測定の結果を示す。今回は例として、ITO/spiro-OMeTAD(static dispense)の場合を載せている。
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{image/spiro(static)_スペクトル例_300-900.jpg}
+        \caption{透過率測定結果の例}
+        \label{透過率測定例}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{image/spiro(static)_スペクトル例_可視光.jpg}
+        \caption{可視光領域での透過率測定結果の例}
+        \label{可視光透過率測定例}
+    \end{minipage}
+\end{figure}
+
+本研究では、CV前後の透過率の差を定量的に比較するために、CV前後の透過率で囲まれている部分を面積として算出し、平均を取ることで評価を行った。図\ref{透過率評価方法}は面積として算出する部分（緑色）の概略図となっている。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{image/Transmittance_evaluation.png}
+	\caption{面積として算出する部分}
+	\label{透過率評価方法}
+\end{figure}
+
+求めた面積を$\SI{400}{nm}$で割ることにより、$\SI{1}{nm}$あたりでの透過率変化量$\Delta T_\mathrm{ave}$を求めた。CV前後での透過率の差が小さければ小さいほど算出する面積が小さくなることから、$\Delta T_\mathrm{ave}$は小さければ小さいほど色変化の可逆性が高いことを示す指標となる。
+
+
+\section{酸化・還元電流}
+本節では、CV測定時に流れる酸化・還元電流の評価方法について示す。
+本研究では、酸化電流は作用極の電位を正に掃引したときに流れる電流であり、還元電流は電位掃引を反転させたときに流れる電流のことをいう。図\ref{CV時の電流}上のどこに酸化・還元電流が流れているかを図\ref{CV時の酸化還元電流}に示す。また、酸化電流が流れている時に着色を行い、還元電流が流れているときに消色を行う。図\ref{サイクリックボルタモグラム}上のどこで、着色・消色が行われているかを図\ref{CV時の着色・消色}に示す。
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{image/cv_current_or.png}
+        \caption{CV時に流れる酸化・還元電流}
+        \label{CV時の酸化還元電流}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{image/cyclic_voltammetry_or.png}
+        \caption{サイクリックボルタモグラム上での\\着色・消色}
+        \label{CV時の着色・消色}
+    \end{minipage}
+\end{figure}
+
+評価方法の移る前に、理解の補助のためにCVで得られる電流特性の測定結果の例を図\ref{電流特性測定結果例}に示す。今回は、ITO/spiro-OMeTAD(static dispense)の場合を載せている。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{image/spiro(static)_時間軸サイクリックボルタモグラム例_x軸修正.png}
+	\caption{CV時の電流特性例}
+	\label{電流特性測定結果例}
+\end{figure}
+
+\subsection{酸化電流の評価方法}
+図\ref{QOの評価方法}に酸化電流の評価方法の概略図を示す。ベースラインの引き方は参考文献\cite{elgrishi_practical_2018}を参考にした。ベースラインを電流密度が0の線にして、線の上側と酸化側の電流特性で囲まれている部分を総酸化電荷密度$Q_{\mathrm{O}}\,{\mathrm{mC/cm^2}}$とした。中間層を導入した場合の値と、中間層なしの場合での値を比べることで評価を行った。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=12cm]{image/Evaluation_QO.png}
+	\caption{酸化電流の評価方法}
+	\label{QOの評価方法}
+\end{figure}
+
+\subsection{還元電流の評価方法}
+図\ref{QRの評価方法}に還元電流の評価方法の概略図を示す。ベースラインの引き方は参考文献\cite{elgrishi_practical_2018}を参考にした。ベースラインを還元電流密度のピークが起こる前で直線近似を行い決定した。この線の下側と還元側の電流特性で囲まれている部分を総還元電荷密度$Q_{\mathrm{R}}\,{\mathrm{mC/cm^2}}$とした。中間層を導入した場合の値と、中間層なしの場合での値を比べることで評価を行った。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{image/Evaluation_QR.png}
+	\caption{還元電流の評価方法}
+	\label{QRの評価方法}
+\end{figure}

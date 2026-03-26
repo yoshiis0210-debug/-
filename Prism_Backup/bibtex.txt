@@ -1,0 +1,226 @@
+@article{spiro-OMeTAD_IE,
+author = {Zhang, Tiankai and Wang, Feng and Kim, Hak-Beom and Choi, In-Woo and Wang, Chuanfei and Cho, Eunkyung and Konefal, Rafal and Puttisong, Yuttapoom and Terado, Kosuke and Kobera, Libor and Chen, Mengyun and Yang, Mei and Bai, Sai and Yang, Bowen and Suo, Jiajia and Yang, Shih-Chi and Liu, Xianjie and Fu, Fan and Yoshida, Hiroyuki and Chen, Weimin M. and Brus, Jiri and Coropceanu, Veaceslav and Hagfeldt, Anders and Brédas, Jean-Luc and Fahlman, Mats and Kim, Dong Suk and Hu, Zhangjun and Gao, Feng},
+title = {Ion-modulated radical doping of spiro-OMeTAD for more efficient and stable perovskite solar cells},
+journal = {Science},
+volume = {377},
+number = {6605},
+pages = {495-501},
+year = {2022}
+}
+
+@article{ZnPc_IE,
+    author = {Akaike, K. and Koch, N. and Oehzelt, M.},
+    title = {Fermi level pinning induced electrostatic fields and band bending at organic heterojunctions},
+    journal = {Applied Physics Letters},
+    volume = {105},
+    number = {22},
+    pages = {223303},
+    year = {2014},
+    month = {12}
+    }
+
+@article{P3HT_IE,
+author = {Ze-Lei Guan and Jong Bok Kim and He Wang and Cherno Jaye and Daniel A. Fischer and Yueh-Lin Loo and Antoine Kahn},
+title = {Direct determination of the electronic structure of the poly(3-hexylthiophene):phenyl-[6,6]-C61 butyric acid methyl ester blend},
+journal = {Organic Electronics},
+volume = {11},
+number = {11},
+pages = {1779-1785},
+year = {2010},
+issn = {1566-1199}
+}
+
+@article{ITO_WF,
+year = {2009},
+volume = {48},
+number = {2R},
+pages = {021601},
+author = {Kim, Kang-Pil and Hussain, A. Mohammed and Hwang, Dae-Kue and Woo, Sung-Ho and Lyu, Hong-Keun and Baek, Sung-Ho and Jang, Youngman and Kim, Jae-Hyun},
+title = {Work Function Modification of Indium–Tin Oxide by Surface Plasma Treatments Using Different Gases},
+journal = {Japanese Journal of Applied Physics},
+}
+
+@masterthesis{小林優心,
+  author          = {小林 優心},
+  school         = {大阪市立大学大学院},
+  title           = {spiro-OMeTADを用いたエレクトロクロミック薄膜における水系電解液の粘度が及ぼすメモリ性への影響},
+  year            = {2023}
+}
+@masterthesis{山本雄樹,
+  author          = {山本 雄樹},
+  school         = {大阪市立大学大学院},
+  title           = {水系電解液におけるspiro-OMeTAD薄膜のエレクトロクロミズム},
+  year            = {2020}
+}
+@masterthesis{片山壮介_卒,
+  author          = {片山　壮介},
+  school         = {大阪市立大学},
+  title           = {カフェ酸層を導入したspiro-OMeTADエレクトロクロミック薄膜に関する研究},
+  year            = {2023}
+}
+@masterthesis{片山壮介_修,
+  author          = {片山　壮介},
+  school         = {大阪公立大学大学院},
+  title           = {ITOとの界面に中間層を導入したspiro-OMeTADエレクトロクロミック薄膜の応答時間に関する研究},
+  year            = {2025}
+}
+@article{電気化学,
+  author          = {邑瀬邦明},
+  journal         = {電気化学会関西支部},
+  number          = {45},
+  title           = {電気化学の基礎},
+  year            = {2015}
+}
+@article{ITO,
+  author          = {原 納 猛，高 木 悟},
+  journal         = {表面技術学会},
+  title           = {透明電極膜ITOの基本物性},
+  volume={40},
+number = {5},
+ pages = {666--670},
+  year            = {1988}
+}
+
+@article{caffeic_acid,
+  title={Increasing electrode work function using a natural molecule},
+  author={Akaike, Kouki and Hosokai, Takuya and Ono, Yutaro and Tsuruta, Ryohei and Yamada, Yoichi},
+  journal={Advanced Materials Interfaces},
+  volume={10},
+  number={19},
+  pages={2201800},
+  year={2023},
+  publisher={Wiley Online Library}
+}
+
+@article{応答時間_90,
+author = {Cho, S. I. and Kwon, W. J. and Choi, S.-J. and Kim, P. and Park, S.-A. and Kim, J. and Son, S. J. and Xiao, R. and Kim, S.-H. and Lee, S. B.},
+title = {Nanotube-Based Ultrafast Electrochromic Display},
+journal = {Advanced Materials},
+volume = {17},
+number = {2},
+pages = {171--175},
+year = {2005}
+}
+
+@Article{応答時間_90_2,
+author ="An, Feng Hui and Yuan, Yu Zheng and Liu, Jian Qiang and He, Meng Dong and Zhang, Bo",
+title  ="Enhanced electrochromic properties of WO3/ITO nanocomposite smart windows",
+journal  ="RSC Adv.",
+year  ="2023",
+volume  ="13",
+number  ="19",
+pages  ="13177--13182",
+publisher  ="The Royal Society of Chemistry"
+}
+
+@Article{応答時間_90_3,
+author ="Qun, Zhang and Li, Yuan and Fanglan, Guan and Xin, Li and Rui, Wang and Jian, Xu and Yanyan, Qin and Guangming, Chen",
+title  ="Substituent-Adjusted Electrochromic Behavior of Symmetric Viologens",
+journal  ="Materials",
+year  ="2021",
+volume  ="14",
+number  ="7",
+pages  ="1702"
+}
+
+@Article{応答時間_95,
+author ="Zhang, Yan and Kong, Lingqian and Ju, Xiuping and Du, Hongmei and Zhao, Jinsheng and Xie, Yu",
+title  ="Synthesis and characterization of novel donor–acceptor type neutral green electrochromic polymers containing an indolo[3{,}2-b]carbazole donor and diketopyrrolopyrrole acceptor",
+journal  ="RSC Adv.",
+year  ="2018",
+volume  ="8",
+number  ="38",
+pages  ="21252--21264",
+publisher  ="The Royal Society of Chemistry"
+}
+
+@Article{応答時間_95_2,
+author ="Chung-Wei, Kung and Timothy Chiaan, Wang and Joseph E., Mondloch and David, Fairen-Jimenez and Daniel M., Gardner and Wojciech, Bury and Jordan Matthew, Klingsporn and Jonathan C., Barnes and Richard Van, Duyne and J. Fraser, Stoddart and Michael R., Wasielewski and Omar K., Farha and Joseph T., Hupp",
+title  ="Metal–Organic Framework Thin Films Composed of Free-Standing Acicular Nanorods Exhibiting Reversible Electrochromism",
+journal  ="Chemistry of Materials",
+volume  ="25",
+number  ="24",
+pages  ="5012--5017",
+year  ="2013",
+}
+
+@article{応答時間_60,
+author = {Garino, N. and Zanarini, S. and Bodoardo, S. and Nair, J. R. and Pereira, S. and Pereira, L. and Martins, R. and Fortunato, E. and Penazzi, N.},
+title = {Fast Switching Electrochromic Devices Containing Optimized BEMA/PEGMA Gel Polymer Electrolytes},
+journal = {International Journal of Electrochemistry},
+volume = {2013},
+number = {1},
+pages = {138753},
+year = {2013}
+}
+
+@article{応答時間_70,
+author = {Haijin, Shin and Yuna, Kim and Thiruvelu, Bhuvana and Jiyea, Lee and Xu, Yang and Cheolmin, Park and Eunkyoung, Kim},
+title = {Color Combination of Conductive Polymers for Black Electrochromism},
+journal = {ACS Applied Materials \& Interfaces},
+volume = {4},
+number = {1},
+pages = {185--191},
+year = {2012}
+}
+
+@article{応答時間_80,
+author = {Ah, Chil Seong and Song, Juhee and Cho, Seong M. and Kim, Tae-Youb and Kim, Han Na and Oh, Ji Yong and Chu, Hye Yong and Ryu, Hojun},
+title = {Double-layered Black Electrochromic Device with a Single Electrode and Long-Term Bistability},
+journal = {Bulletin of the Korean Chemical Society},
+volume = {36},
+number = {2},
+pages = {548--552},
+year = {2015}
+}
+
+@manual{UV-1800,
+  title={島津紫外可視分光光度計　UV-1800　取扱説明書},
+  author={島津製作所},
+  pages={321--357},
+  year={2002}
+}
+
+@article{gaussian,
+  author          = {西長　亨，本田　康},
+  journal         = {裳華房},
+  title           = {有機化学のための量子化学計算入門},
+  volume={1},
+  year            = {2022}
+}
+
+@article{CAM-B3LYP,
+title = {A new hybrid exchange–correlation functional using the Coulomb-attenuating method (CAM-B3LYP)},
+journal = {Chemical Physics Letters},
+volume = {393},
+number = {1},
+pages = {51-57},
+year = {2004},
+author = {Takeshi, Yanai and David P, Tew and Nicholas C, Handy},
+
+}
+@article{B3LYP-D3,
+author = {Grimme, Stefan and Ehrlich, Stephan and Goerigk, Lars},
+title = {Effect of the damping function in dispersion corrected density functional theory},
+journal = {Journal of Computational Chemistry},
+volume = {32},
+number = {7},
+pages = {1456-1465},
+keywords = {dispersion energy, density functional theory, noncovalent interactions, van der Waals complexes},
+year = {2011}
+}
+
+@article{elgrishi_practical_2018,
+	title = {A {Practical} {Beginner}’s {Guide} to {Cyclic} {Voltammetry}},
+	volume = {95},
+	issn = {0021-9584, 1938-1328},
+	url = {https://pubs.acs.org/doi/10.1021/acs.jchemed.7b00361},
+	doi = {10.1021/acs.jchemed.7b00361},
+	language = {en},
+	number = {2},
+	journal = {Journal of Chemical Education},
+	author = {Elgrishi, Noémie and Rountree, Kelley J. and McCarthy, Brian D. and Rountree, Eric S. and Eisenhart, Thomas T. and Dempsey, Jillian L.},
+	month = feb,
+	year = {2018},
+	pages = {197--206},
+}

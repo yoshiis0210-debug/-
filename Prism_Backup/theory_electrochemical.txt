@@ -1,0 +1,77 @@
+\section{エレクトロクロミズム}
+クロミズムとは、光や熱、電気などの外部的な刺激により、物質の色変化が可逆的に起こる現象を指す。その中で、電気的な刺激によるものをエレクトロクロミズムという。また、エレクトロクロミズムを示す薄膜をエレクトロクロミック薄膜と呼ぶ。
+
+\section{電気化学}
+電気化学とは、電池、電解合成、センサー、表面処理などの電子のやりとりを伴う化学的な現象に関わる学問である。エレクトロクロミズムは電気的な刺激により引き起こされる酸化還元反応を利用しているため、電気化学に密接に関連している。
+
+\subsection{酸化還元反応}
+酸化還元反応とは化学反応の一つで、化学種である原子やイオンあるいは化合物間で電子の授受がある反応のことを指す。化学種が他の化学種に電子を放出する反応を酸化反応、化学種が他の化学種に電子を受け取る反応を還元反応という。
+
+\subsection{電解質}
+電解質とは溶媒に溶解した際に陽イオンと陰イオンに電離する物質のことを指す。その性質から、電解質は溶液の電気伝導率を高めるために電気化学の分野で使用される。また、この電解質を溶かした溶液を電解液という。
+
+\subsection{水系電解液}
+水系電解液とは、溶媒に水を用いた電解液のことを指す。純粋な水の場合、水分子がほとんど電離していないので電気を通しにくい。そのため、水に一定の電解質を溶かすことにより、正負の電荷を持つイオンを生成し、溶液中を流れる電気の担い手となることで、電気伝導性を示すようになる。
+
+\section{電気化学測定}
+本研究では、ポテンショスタットを用いた三電極系で測定を行った。その概略図を図\ref{三電極系}に示す。
+\begin{figure}[H]
+    \begin{minipage}{1\hsize}
+        \begin{center}
+            \includegraphics[scale=0.65]{three_electrode.png}
+        \end{center}
+        \caption{三電極系の概略図}
+        \label{三電極系}    
+    \end{minipage}
+\end{figure}
+\subsection{三電極法}
+三電極系とは、図\ref{三電極系}に示すような作用極(Working Electrode：WE)、対極(Counter Electrode：CE)、参照極(Reference Electrode：RE)の3電極からなる測定系である。この系では、WE-RE間の電位を制御し、WE-CE間の電流を測定する。
+
+\subsection{ポテンショスタット}
+ポテンショスタットとは、WE-RE間の電位を制御し、WE-CE間の電流を測定する機器のことを指す。
+
+\subsection{サイクリックボルタンメトリー}
+\label{CV}
+サイクリックボルタンメトリー（Cyclic Voltammetry：CV）とは、REに対するWEの電位を図\ref{三角波}に示すような三角波で一定の速度で掃引し、ある電位に達すると掃引方向を反転させて、同じ掃引速度で元の電位まで戻す間にWEおよびCEで反応が起こることによって流れる電流を測定する手法のことである。測定した電流の概略図を図\ref{CV時の電流}に示す。図\ref{三角波}、図\ref{CV時の電流}を用いて時間軸を除去したものをサイクリックボルタモグラム（図\ref{サイクリックボルタモグラム}）という。
+
+\begin{figure}[H]
+	\centering
+    \begin{minipage}{0.4\columnwidth}
+            \includegraphics[width=\columnwidth]{triangular_wave.png}
+    \caption{三角波}
+    \label{三角波}
+    \end{minipage}
+    \begin{minipage}{0.4\columnwidth}
+    		\centering
+            \includegraphics[width=\columnwidth]{cv_current.png}
+	\caption{CV時に流れる電流}
+    \label{CV時の電流}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6cm]{cyclic_voltammetry_non.png}
+	\caption{サイクリックボルタモグラム}
+	\label{サイクリックボルタモグラム}
+\end{figure}
+
+\subsection{リニアスイープボルタンメトリー}
+リニアスイープボルタンメトリー(Linear Sweep Voltammetry:LSV)は、REに対するWEの電位を図\ref{LSV}に示すような波形で一定速度で掃引し、その間のWEおよびCEで反応が起こることによって流れる電流を測定する手法である。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6cm]{image/LSV波形.png}
+	\caption{LSVでの印加電圧}
+	\label{LSV}
+\end{figure}
+
+\section{スピンコート法}
+スピンコート法とは、基板に薄膜を生成する方法の一つである。スピンコート法には、基板を回転させながらその基板上に溶液を滴下して成膜を行う方法と、基板上に溶液を滴下した後にその基板を回転させ成膜を行う方法の二種類がある。前者をdynamic dispense、後者をstatic dispenseと言う。スピンコート法の特徴として回転速度や回転時間、溶液の濃度によって膜厚の制御が可能なうえ、容易に均一な薄膜を生成できることが挙げられる。スピンコートの様子を図\ref{スピンコート}に示す。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6cm]{spin_coat}
+	\caption{スピンコートの様子}
+	\label{スピンコート}
+\end{figure}

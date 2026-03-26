@@ -1,0 +1,108 @@
+% !TEX program = lualatex
+
+\documentclass[report,a4paper,11pt]{jlreq}
+\ltjsetparameter{autospacing=false}%和欧の文字間隔詰める
+\ModifyHeading{subsection}{afterskip=0pt}
+\ModifyHeading{subsubsection}{beforeskip=-.5\baselineskip}%2行でsubsection,subsubsection行間詰める用
+
+\usepackage[sorting=none,backend=biber]{biblatex} %biblatex用
+\addbibresource{./bibtex.bib} %biblatex用
+%\makeatletter
+%\let\mkbibmph=\mkbibitalic
+%\let\blx@imc@mkbibemph=\blx@imc@mkbibitalic
+%\makeatother
+%\setlength{\biblabelsep}{0.5em}
+\DeclareFieldFormat{title}{\textrm{#1}}
+%=====================================================================================
+% 改訂第9版 LATEX 美文書作成入門（著：奥村晴彦, 黒木裕介）を参考にした．
+%=====================================================================================
+\usepackage{luatexja} %日本語文書の作成には必須みたい
+
+% 数式
+\usepackage{amsmath,amssymb} %amsmathにより、簡単に複雑な数式を記述できる。%amssymbにより、より多くの数学記号を使用できる
+%\usepackage{breqm} %breqnにより、長い数式を自動で改行してくれる
+\usepackage{bm} %bmにより、ボールドイタリック体になる
+\usepackage{ascmac} %文章を囲むことが出来る
+% 目次体裁
+\usepackage{tocloft}
+% 章見出し（番号・章題）を太字にし、大きさは元（通常）に戻す
+\renewcommand{\cftchapfont}{\bfseries}
+\renewcommand{\cftchappagefont}{\bfseries}
+\renewcommand{\cftchapleader}{\hfill}
+% 章番号と章題の重なり防止（番号用の幅を確保）
+\setlength{\cftchapnumwidth}{4em}
+% 画像
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{hyperref}
+\graphicspath{{../image/}{../structure/}{../TGraph/}{../Graph/}{../QOGraph/}{../QRGraph/}{./image/}{./structure/}{./TGraph/}{./Graph/}{./QOGraph/}{./QRGraph/}}
+%\usepackage{pxjahyper}%pLaTeXの拡張パッケージ
+\usepackage[hang,small,bf]{caption}
+\usepackage[subrefformat=parens]{subcaption}
+\captionsetup{compatibility=false}
+\captionsetup{justification=centering}
+\usepackage{here}
+%単位
+\usepackage{siunitx}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{18.7pt}
+
+%化学式
+\usepackage[version=4]{mhchem}
+\usepackage[top=30truemm,bottom=30truemm,left=25truemm,right=25truemm]{geometry}
+\hypersetup{% hyperrefオプションリスト
+setpagesize=false,
+ bookmarksnumbered=true,%
+ bookmarksopen=true,%
+ colorlinks=true,%
+ linkcolor=black,
+ citecolor=black,
+}
+\usepackage{enumitem}
+%引用文献
+%\usepackage{cite}
+%\renewcommand{\citeleft}{\inhibitglue[}
+%\renewcommand{\citeright}{]\inhibitglue}
+\begin{document}
+  \input{titlepage}
+%=====================================================================================
+  % 目次の表示
+\tableofcontents
+%=====================================================================================
+\pagestyle{fancy}
+\lhead{\rightmark}
+\renewcommand{\chaptermark}[1]{\markboth{第\ \normalfont\thechapter\ 章~~#1}{}}
+%=====================================================================================
+\chapter{序論}
+	\input{intro}
+%
+\chapter{理論}
+	\input{theory_electrochemical}
+
+\chapter{実験}
+	\input{experiment_material}
+	\input{experiment_equipment}
+	
+\chapter{結果と考察}
+	\input{result}
+
+\chapter{まとめ}
+	\input{summary}
+
+\chapter*{謝辞} %章を付けずにタイトル表示
+\pagestyle{empty}
+\addcontentsline{toc}{chapter}{謝辞} %章立てせずに目次に追加するおまじない
+本研究は筆者が大阪公立大学工学部電子物理工学科在籍中に田中健司
+先生のご指導の下に行ったものであります。本研究を行う際に、終始多大な御指導
+と御配慮を賜った同氏に感謝の意を表します。また、本研究実験中、実験を行う際に様々
+な面でご協力頂いた院生の片山壮介氏に心より感謝の意を表します。
+\addcontentsline{toc}{chapter}{参考文献} %章立てせずに目次に追加するおまじない
+\printbibliography[title=参考文献] %biblatex用
+%\bibliographystyle{junsrt} %bibtex用
+%\bibliography{bibtex} %bibtex用
+%\renewcommand{\bibname}{参考文献} %これがないと，タイトルが「関連図書」になってしまう
+%\bibliography{bibtex} %bibtexファイルの読み込み
+%\bibliographystyle{junsrt} %本文に\cite{}を入れることで，参考文献表示
+ 
+ \end{document}

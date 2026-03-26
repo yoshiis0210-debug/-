@@ -1,0 +1,2 @@
+$bibtex_use = 2; # biber を使う
+$biber = 'biber --input-directory=.. %O %S';

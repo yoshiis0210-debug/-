@@ -1,0 +1,25 @@
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+
+\vspace*{2cm}
+
+{\LARGE\bfseries 
+ITOとの界面に中間層を導入した\\
+spiro-OMeTAD薄膜のエレクトロクロミズム\\
+に関する研究 \par}
+
+\vfill % タイトルと年度の間の空白を最大化
+
+% ここから下部に配置したい内容
+\begin{minipage}[b]{\textwidth}
+    \centering
+    {\LARGE 令和7年度 \par}
+    \vspace{1.5cm}
+    {\LARGE 大阪公立大学\, 工学部\par 電子物理工学科 \par}
+    \vspace{1.5cm}
+    {\LARGE AJF22073\, 吉田 翔一 \par}
+\end{minipage}
+
+\vspace*{1cm} % 紙の端から少し浮かせるための余白
+\end{titlepage}

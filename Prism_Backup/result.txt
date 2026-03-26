@@ -1,0 +1,163 @@
+\section{平均透過率変化$\Delta T_ \mathrm{ave}$の結果}
+図\ref{T_CA}～図\ref{T_Me}に中間層成膜時の濃度と平均透過率変化$\Delta T_ \mathrm{ave}$の関係を示す。
+濃度が$\SI{0}{mmol/L}$はspiro-OMeTADのみを成膜した場合を示している。再現性を取るために3回実験を行った。
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.43\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{TGraph/CA_エラーバー付き_透過率変化.jpg}
+        \caption{カフェ酸導入時の$\Delta T_ \mathrm{ave}$}
+        \label{T_CA}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.43\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{TGraph/Cz_エラーバー付き_平均変化量.jpg}
+        \caption{2PACz導入時の$\Delta T_ \mathrm{ave}$}
+        \label{T_Cz}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.43\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{TGraph/Br_エラーバー付き_平均透過率変化.jpg}
+        \caption{Br-2PACz導入時の$\Delta T_ \mathrm{ave}$}
+        \label{T_Br}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.43\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{TGraph/ME_エラーバー付き_平均透過率変化.jpg}
+        \caption{Me-2PACz導入時の$\Delta T_ \mathrm{ave}$}
+        \label{T_Me}
+    \end{minipage}
+\end{figure}
+
+続いて、図\ref{Delta_T}に各材料の中間層成膜時の濃度と$\Delta T_ \mathrm{ave}$の平均との関係を示す。
+赤い破線はspiro-OMeTADのみをstatic dispenseで成膜した場合、青い破線はdynamic dispenseで成膜した場合を示している。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{Graph/平均透過率変化.jpg}
+	\caption{各材料での中間層成膜時の濃度の平均$\Delta T_ \mathrm{ave}$}
+	\label{Delta_T}
+\end{figure}
+
+図\ref{Delta_T}より、spiro-OMeTADのみの場合と比べて中間層導入時では$\Delta T_ \mathrm{ave}$が大きくなっているため、色変化の可逆性が悪くなったと言える。一方、カフェ酸・2PACzにはspiro-OMeTAD(static)のみと$\Delta T_ \mathrm{ave}$が近い値もあることから中間層導入による悪影響を最小限に抑えることができる可能性があることを示している。
+
+\section{総酸化電荷密度$Q_ \mathrm{O}$の結果}
+図\ref{QO_CA}～図\ref{QO_Me}に中間層成膜時の濃度と総酸化電荷密度$Q_ \mathrm{O}$の関係を示す。濃度が$\SI{0}{mmol/L}$はspiro-OMeTADのみを成膜した場合を示している。再現性を取るために3回実験を行った。
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.43\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{QOGraph/CA_エラーバー付き_総酸化電荷量.jpg}
+        \caption{カフェ酸導入時の$Q_ \mathrm{O}$}
+        \label{QO_CA}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.43\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{QOGraph/Cz_エラーバー付き_総酸化電荷量.jpg}
+        \caption{2PACz導入時の$Q_ \mathrm{O}$}
+        \label{QO_Cz}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.43\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{QOGraph/Br_エラーバー付き_総酸化電荷量.jpg}
+        \caption{Br-2PACz導入時の$Q_ \mathrm{O}$}
+        \label{QO_Br}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.43\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{QOGraph/Me_エラーバー付き_総酸化電荷量.jpg}
+        \caption{Me-2PACz導入時の$Q_ \mathrm{O}$}
+        \label{QO_Me}
+    \end{minipage}
+\end{figure}
+
+図\ref{QO_CA}～図\ref{QO_Me}より、中間層導入により$Q_ \mathrm{O}$が大きくなることが示された。図\ref{QO_CA}、図\ref{QO_Cz}に着目するとカフェ酸・2PACzではそれぞれ成膜時の溶液濃度が$\SI{30}{mmol/L}$まで$Q_ \mathrm{O}$が大きくなることが示された。
+
+\section{総還元電荷密度$Q_ \mathrm{R}$の結果}
+図\ref{QR_CA}～図\ref{QR_Me}に中間層成膜時の濃度と総酸化電荷密度$Q_ \mathrm{R}$の関係を示す。濃度が$\SI{0}{mmol/L}$はspiro-OMeTADのみを成膜した場合を示している。再現性を取るために3回実験を行った。
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.43\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{QRGraph/CA_エラーバー付き_総還元電荷量.jpg}
+        \caption{カフェ酸導入時の$Q_ \mathrm{R}$}
+        \label{QR_CA}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.43\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{QRGraph/Cz_エラーバー付き_総還元電荷量.jpg}
+        \caption{2PACz導入時の$Q_ \mathrm{R}$}
+        \label{QR_Cz}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.43\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{QRGraph/Br_エラーバー付き_総還元電荷量.jpg}
+        \caption{Br-2PACz導入時の$Q_ \mathrm{R}$}
+        \label{QR_Br}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.43\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{QRGraph/Me_エラーバー付き_総還元電荷量.jpg}
+        \caption{Me-2PACz導入時の$Q_ \mathrm{R}$}
+        \label{QR_Me}
+    \end{minipage}
+\end{figure}
+
+図\ref{QR_CA}～図\ref{QR_Me}より、中間層導入により$Q_ \mathrm{R}$が大きくなることが示された。図\ref{QR_CA}に着目するとカフェ酸では成膜時の溶液濃度が濃くなるほど$Q_ \mathrm{R}$が小さくなっていった。一方、図\ref{QR_Cz}に着目すると2PACzでは成膜時の溶液濃度が$\SI{30}{mmol/L}$まで$Q_ \mathrm{R}$が大きくなった。
+
+\section{総酸化電荷密度$Q_ \mathrm{O}$と総還元電荷密度$Q_ \mathrm{R}$の関係}
+図\ref{QO_QR}に$Q_ \mathrm{O}$と$Q_ \mathrm{R}$の関係を示す。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{Graph/総酸化電荷量_総還元電流.jpg}
+	\caption{$Q_ \mathrm{O}$と$Q_ \mathrm{R}$の関係}
+	\label{QO_QR}
+\end{figure}
+
+前述したとおり、図\ref{QO_QR}からも中間層導入により、spiro-OMeTADのみと比べて$Q_ \mathrm{O}$と$Q_ \mathrm{R}$が大きくなったことがわかる。\\
+
+spiro-OMeTAD(static)のみとカフェ酸導入時に注目すると、$Q_ \mathrm{O}$の増加量に比べて$Q_ \mathrm{R}$の増加量が少ないことがわかる。このことから、カフェ酸を導入することにより酸化電流が流れやすくなり、還元電流が流れにくくなっているといえる。これは、カフェ酸の双極子モーメントが関与していると考えられる。図\ref{CA_双極子}にカフェ酸の分子構造と双極子モーメントの向きを示す。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{image/CA_dypole.png}
+	\caption{カフェ酸の双極子モーメント}
+	\label{CA_双極子}
+\end{figure}
+
+カフェ酸は成膜時にカテコール基（ベンゼン環のオルト位にOH基がついている）側がITOにくっつくと考えられている。このことから、双極子モーメントはspiro-OMeTAD薄膜からITOの向きになることがわかる。電子は双極子モーメントと同じ向きに進みやすいことから、酸化電流が増加し還元電流が減少したと考えられる。\\
+
+続いて、2PACz導入時に着目すると、$Q_ \mathrm{O}$が増加すると$Q_ \mathrm{R}$も増加していることがわかる。これは、CV時に2PACzも酸化、還元が行われており、その分だけ大きくなったと考えられる。
+
+\section{平均透過率変化$\Delta T_ \mathrm{ave}$と$Q_ \mathrm{R} / Q_ \mathrm{O}$の関係}
+
+図\ref{T_QOR}に平均透過率変化$\Delta T_ \mathrm{ave}$と$Q_ \mathrm{R} / Q_ \mathrm{O}$の関係を示す。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{Graph/比_平均透過率変化.jpg}
+	\caption{$\Delta T_ \mathrm{ave}$と$Q_ \mathrm{R} / Q_ \mathrm{O}$の関係}
+	\label{T_QOR}
+\end{figure}
+
+まず、形が四角の元同士で比較を行っていく。これは、spiro-OMeTADをdynamic dispenseで成膜した試料群である。この群では中間層導入により$Q_ \mathrm{R} / Q_ \mathrm{O}$がspiro-OMeTAD(dynamicのみ)に比べて大きくなったものの、$\Delta T_ \mathrm{ave}$も大きくなっており、色変化の可逆性は低下したということがわかる。\\
+
+続いて、カフェ酸導入時とspiro-OMeTAD(static)のみの比較を行う。カフェ酸を導入することにより、$Q_ \mathrm{R} / Q_ \mathrm{O}$はspiro-OMeTAD(static)のみと比べて、低下した。しかし、$\Delta T_ \mathrm{ave}$がほとんど同じになる結果を示しているものもあり、色変化の可逆性は同等であるものもあったことが示される。\\
+
+最後に、2PACz導入時とspiro-OMeTAD(static)のみの比較を行う。2PACzを導入することにより、$Q_ \mathrm{R} / Q_ \mathrm{O}$はspiro-OMeTAD(static)のみと比べて、向上した。しかし、$\Delta T_ \mathrm{ave}$は$Q_ \mathrm{R} / Q_ \mathrm{O}$が一番向上したものであっても、spiro-OMeTAD(static)のみよりも小さくならなかった。このことから、2PACz導入時にはspiro-OMeTADのみと比べて酸化還元電流の比が向上しても、色変化の可逆性はほとんど同じであるということが示された。\\
