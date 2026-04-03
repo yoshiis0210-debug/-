@@ -3,6 +3,7 @@
 
 \usepackage[sorting=none,backend=biber,style=numeric-comp]{biblatex} %biblatex用
 \addbibresource{./bibtex.bib} %biblatex用
+\setlength{\biblabelsep}{0.5em} % 番号と文献情報の間隔
 %\makeatletter
 %\let\mkbibmph=\mkbibitalic
 %\let\blx@imc@mkbibemph=\blx@imc@mkbibitalic
@@ -60,17 +61,31 @@ setpagesize=false,
 \usepackage{enumitem}
 
 \begin{document}
-  \input{Chapter/titlepage}
+  \input{Chapter/titlepage} % ここで表紙を読み込み
+  
 %=====================================================================================
-  % 目次の表示
+% 1. ここにページ番号の設定を追加
+%=====================================================================================
+\pagenumbering{arabic}    % ページ番号を1から開始
+\pagestyle{plain}         % 目次ページなどは下部中央に番号を表示
+
+% 目次の表示
 \tableofcontents
+\clearpage                % 目次が終わったら確実に改ページ
+
+%=====================================================================================
+% 2. 本文の設定
 %=====================================================================================
 \pagestyle{fancy}
 \lhead{\rightmark}
 \renewcommand{\chaptermark}[1]{\markboth{第\ \normalfont\thechapter\ 章~~#1}{}}
-%=====================================================================================
+
+% 章の開始ページでもヘッダー・フッター（fancy）を適用したい場合
+\fancypagestyle{plain}{\pagestyle{fancy}} 
+
 \chapter{序論}
-	\input{Chapter/intro}
+    \input{Chapter/intro}
+
 %
 \chapter{理論}
 	\input{Chapter/theory_electrochemical}
@@ -85,15 +100,19 @@ setpagesize=false,
 \chapter{まとめ}
 	\input{Chapter/summary}
 
-\chapter*{謝辞} %章を付けずにタイトル表示
-\pagestyle{empty}
-\addcontentsline{toc}{chapter}{謝辞} %章立てせずに目次に追加するおまじない
+\chapter*{謝辞}
+\pagestyle{plain}
+\phantomsection
+\addcontentsline{toc}{chapter}{謝辞}
 本研究は筆者が大阪公立大学工学部電子物理工学科在籍中に田中健司
 先生のご指導の下に行ったものであります。本研究を行う際に、終始多大な御指導
 と御配慮を賜った同氏に感謝の意を表します。また、本研究実験中、実験を行う際に様々
 な面でご協力頂いた院生の片山壮介氏に心より感謝の意を表します。
-\addcontentsline{toc}{chapter}{参考文献} %章立てせずに目次に追加するおまじない
-\printbibliography[title=参考文献] %biblatex用
+\cleardoublepage
+\phantomsection 
+\addcontentsline{toc}{chapter}{参考文献}
+\printbibliography[title=参考文献]
+
 %\bibliographystyle{junsrt} %bibtex用
 %\bibliography{bibtex} %bibtex用
 %\renewcommand{\bibname}{参考文献} %これがないと，タイトルが「関連図書」になってしまう
